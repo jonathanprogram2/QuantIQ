@@ -1,6 +1,4 @@
 # Environment and Secrets (Credentials)
-.env
-.env.*
 !.env.example
 secrets.json
 *.pem
@@ -30,7 +28,6 @@ htmlcov/
 *.sqlite3
 
 # IDE / Editors
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -57,3 +54,8 @@ out/
 # Model
 model.onnx
 deploy_hf.ps1
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
