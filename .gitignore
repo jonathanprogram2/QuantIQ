@@ -27,10 +27,10 @@ htmlcov/
 # Databases (Local SQLite or PG clusters)
 *.db
 *.sqlite
+temp_auto_push.bat
 *.sqlite3
 
 # IDE / Editors
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -57,3 +57,5 @@ out/
 # Model
 model.onnx
 deploy_hf.ps1
+.gitignore
+branch_structure.json
